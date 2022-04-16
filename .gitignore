@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/items-app/node_modules
+/items-app/.pnp
+/items-app/.pnp.js
+
+# testing
+/items-app/coverage
+
+# production
+/items-app/build
+
+# misc
+/items-app/.DS_Store
+/items-app/.env.local
+/items-app/.env.development.local
+/items-app/.env.test.local
+/items-app/.env.production.local
+
+/items-app/npm-debug.log*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/items-app/node_modules
+/items-app/.pnp
+/items-app/.pnp.js
+
+# testing
+/items-app/coverage
+
+# production
+/items-app/build
+
+# misc
+/items-app/.DS_Store
+/items-app/.env.local
+/items-app/.env.development.local
+/items-app/.env.test.local
+/items-app/.env.production.local
+
+/items-app/npm-debug.log*
+/items-app/yarn-debug.log*
+/items-app/yarn-debug.log*
+/items-app/yarn-error.log*
+
+#-----------------------------------------------------
+#JAVA
+
+/springboot-api-tasks/HELP.md
+/springboot-api-tasks/target/
+/springboot-api-tasks/!.mvn/wrapper/maven-wrapper.jar
+/springboot-api-tasks/!**/src/main/**/target/
+/springboot-api-tasks/!**/src/test/**/target/
+
+### STS ###
+/springboot-api-tasks/.apt_generated
+/springboot-api-tasks/.classpath
+/springboot-api-tasks/.factorypath
+/springboot-api-tasks/.project
+/springboot-api-tasks/.settings
+/springboot-api-tasks/.springBeans
+/springboot-api-tasks/.sts4-cache
+
+

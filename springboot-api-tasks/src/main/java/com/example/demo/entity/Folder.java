@@ -25,7 +25,7 @@ public class Folder {
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "ft_fid",referencedColumnName = "id")
-	List<Task> tasks = new ArrayList<>();
+	List<Task> tasks = new ArrayList();
 
 	public Folder() {
 		

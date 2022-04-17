@@ -21,7 +21,7 @@ EJECUCION
 sh script_install_docker.sh
 
 "script de creacion docker mysql"
-sh script_mysql_docker.sh
+sudo sh script_mysql_docker.sh
 
 "script backend inicializando"
 sh script_backend.sh
